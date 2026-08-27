@@ -6,8 +6,8 @@ import styles from "./Work.module.css";
 
 interface WorkItemData {
   num: string;
-  titleKey: "work.1.title" | "work.2.title" | "work.3.title";
-  descKey: "work.1.desc" | "work.2.desc" | "work.3.desc";
+  titleKey: "work.1.title" | "work.2.title" | "work.3.title" | "work.4.title" | "work.5.title" | "work.6.title" | "work.7.title" | "work.8.title" | "work.9.title";
+  descKey: "work.1.desc" | "work.2.desc" | "work.3.desc" | "work.4.desc" | "work.5.desc" | "work.6.desc" | "work.7.desc" | "work.8.desc" | "work.9.desc";
   tags: string[];
   delayClass?: string;
 }
