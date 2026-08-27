@@ -1,8 +1,3 @@
-# Portfolio — Marta Otero
-
-Prototipo de portfolio personal en React + TypeScript + CSS Modules,
-con estética de plano técnico y scroll-reveal.
-
 ## Arrancar en local
 
 ```bash
@@ -26,10 +21,3 @@ npm run dev
 - `src/styles/shared.module.css` — clases reutilizables (`reveal`, los
   retardos `delay1..4` y las esquinas dibujadas de `card`), compuestas
   desde cada módulo de componente con `composes: ... from`.
-
-## Contenido de ejemplo
-
-Los textos (nombre, proyectos, bio) son de relleno — sustitúyelos en
-`src/i18n/translations.ts` por tu contenido real. Todo el texto visible
-pasa por la función `t()`, así que no debería quedar nada hardcodeado
-fuera de ese fichero.
