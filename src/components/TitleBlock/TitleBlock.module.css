@@ -1,0 +1,28 @@
+.block {
+  position: fixed;
+  left: 24px;
+  bottom: 24px;
+  z-index: 50;
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  border: 1px solid var(--line-faint);
+  background: rgba(12, 36, 57, 0.72);
+  backdrop-filter: blur(6px);
+  min-width: 220px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  padding: 7px 12px;
+  border-bottom: 1px solid var(--line-faint);
+  color: var(--line-dim);
+}
+
+.row:last-child {
+  border-bottom: none;
+}
+
+.row span:last-child {
+  color: var(--line);
+}

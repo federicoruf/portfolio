@@ -1,0 +1,49 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr;
+  gap: 60px;
+  align-items: start;
+}
+
+.text {
+  max-width: 52ch;
+}
+
+.p1 {
+  composes: reveal delay1 from '../../styles/shared.module.css';
+  font-size: 1.05rem;
+  line-height: 1.75;
+  color: var(--line-dim);
+}
+
+.p2 {
+  composes: reveal delay2 from '../../styles/shared.module.css';
+  font-size: 1.05rem;
+  line-height: 1.75;
+  color: var(--line-dim);
+  margin-top: 18px;
+}
+
+.specList {
+  composes: reveal delay3 from '../../styles/shared.module.css';
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+}
+
+.specRow {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--line-faint);
+  color: var(--line-dim);
+}
+
+.specRow span:last-child {
+  color: var(--line);
+}
+
+@media (max-width: 860px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

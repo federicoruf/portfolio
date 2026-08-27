@@ -1,0 +1,45 @@
+.ruler {
+  position: fixed;
+  right: 24px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 50;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 26px;
+}
+
+.tick {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-family: var(--font-mono);
+  color: var(--line-dim);
+  font-size: 0.66rem;
+}
+
+.tick .bar {
+  width: 14px;
+  height: 1px;
+  background: var(--line-dim);
+  transition: all 0.3s ease;
+}
+
+.tick.active {
+  color: var(--accent);
+}
+
+.tick.active .bar {
+  width: 26px;
+  background: var(--accent);
+}
+
+@media (max-width: 860px) {
+  .ruler {
+    display: none;
+  }
+}

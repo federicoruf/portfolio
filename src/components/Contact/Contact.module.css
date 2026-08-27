@@ -1,0 +1,34 @@
+.contact {
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.title {
+  composes: reveal delay1 from '../../styles/shared.module.css';
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(2rem, 6vw, 4.2rem);
+  max-width: 16ch;
+  line-height: 1.05;
+}
+
+.links {
+  composes: reveal delay2 from '../../styles/shared.module.css';
+  margin-top: 44px;
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.links a {
+  font-family: var(--font-mono);
+  color: var(--line);
+  text-decoration: none;
+  font-size: 0.9rem;
+  border-bottom: 1px solid var(--accent);
+  padding-bottom: 4px;
+}
+
+.links a:hover {
+  color: var(--accent);
+}
