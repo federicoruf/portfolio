@@ -8,7 +8,7 @@ npm run dev
 ## Estructura
 
 - `src/components/` — un componente por sección (`Hero`, `About`, `Work`,
-  `Approach`, `Contact`) más los elementos fijos (`TitleBlock`, `RulerNav`,
+  `PersonalProjects`,  `Contact`) más los elementos fijos (`TitleBlock`, `RulerNav`,
   `LanguageToggle`).
 - `src/hooks/useInView.ts` — detecta cuándo una sección entra en el
   viewport (revelado en scroll).

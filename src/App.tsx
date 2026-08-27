@@ -8,14 +8,14 @@ import { RulerNav } from './components/RulerNav/RulerNav';
 import { Hero } from './components/Hero/Hero';
 import { About } from './components/About/About';
 import { Work } from './components/Work/Work';
-import { Approach } from './components/Approach/Approach';
 import { Contact } from './components/Contact/Contact';
+import { PersonalProjects } from './components/PersonalProjects/PersonalProjects';
 
 function PortfolioContent() {
   const heroRef = useRef<HTMLElement>(null);
   const aboutRef = useRef<HTMLElement>(null);
   const workRef = useRef<HTMLElement>(null);
-  const approachRef = useRef<HTMLElement>(null);
+  const personalProjectsRef = useRef<HTMLElement>(null);
   const contactRef = useRef<HTMLElement>(null);
 
   const sectionRefs = useMemo(
@@ -23,7 +23,7 @@ function PortfolioContent() {
       hero: heroRef,
       about: aboutRef,
       work: workRef,
-      approach: approachRef,
+      personalProjects: personalProjectsRef,
       contact: contactRef,
     }),
     []
@@ -45,7 +45,7 @@ function PortfolioContent() {
       <Hero ref={heroRef} />
       <About ref={aboutRef} />
       <Work ref={workRef} />
-      <Approach ref={approachRef} />
+      <PersonalProjects ref={personalProjectsRef} />
       <Contact ref={contactRef} />
     </>
   );

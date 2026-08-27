@@ -49,7 +49,7 @@ export const translations = {
   "about.spec.mode.value": { es: "Remoto / Híbrido", en: "Remote / Hybrid" },
 
   "work.eyebrow": {
-    es: "Lámina 02 — Proyectos seleccionados",
+    es: "Lámina 02 —  Proyectos seleccionados",
     en: "Sheet 02 — Selected work",
   },
   "work.1.title": {
@@ -112,38 +112,27 @@ export const translations = {
   },
   'work.9.title': { es: 'Hospital Español de La Plata', en: 'Hospital Español de La Plata' },
   'work.9.desc': {
-    es: "Desarrollo e implementación de aplicaciones utilizando Java Spring y AngularJS. Gestión de bases de datos Sybase. Despliegue y mantenimiento de aplicaciones en servidores Linux. Stack: Java Spring, AngularJS, JBoss, Sybase, Linux.",
-    en: "Development and implementation of applications using Java Spring and AngularJS. Management of Sybase databases. Deployment and maintenance of applications on Linux servers. Stack: Java Spring, AngularJS, JBoss, Sybase, Linux.",
+    es: "Desarrollo e implementación de aplicaciones utilizando Java Spring y AngularJS. Gestión de bases de datos Sybase. Despliegue y mantenimiento de aplicaciones en servidores Linux.",
+    en: "Development and implementation of applications using Java Spring and AngularJS. Management of Sybase databases. Deployment and maintenance of applications on Linux servers.",
   },
 
-  "approach.eyebrow": { es: "Lámina 03 — Proceso", en: "Sheet 03 — Process" },
-  "approach.title": {
-    es: "De análisis a producción, en cuatro fases.",
-    en: "From analysis to production, in four phases.",
+  "personalProjects.eyebrow": {
+    es: "Lámina 03 — Proyectos Personales",
+    en: "Sheet 03 — Personal Projects",
   },
-  "approach.1.num": { es: "FASE 1", en: "PHASE 1" },
-  "approach.1.title": { es: "Análisis", en: "Analysis" },
-  "approach.1.desc": {
-    es: "Análisis funcional y técnico antes de escribir código. Definir el problema real, los requisitos y la viabilidad con el equipo y el cliente.",
-    en: "Functional and technical analysis before writing code. Define the real problem, requirements, and feasibility with the team and client.",
+  'personalProjects.1.title': { es: 'GPX Mountain Guide', en: 'GPX Mountain Guide' },
+  'personalProjects.1.desc': {
+    es: 'Generador y visor de rutas de MTB con seguimiento en tiempo real: cada ciclista comparte su posición durante el recorrido, así el grupo entero sabe dónde está cada uno sin depender de walkies ni paradas para reagruparse.',
+    en: "MTB route generator and viewer with real-time tracking: each rider shares their position during the ride, so the whole group knows where everyone is without walkies or stopping to regroup.",
   },
-  "approach.2.num": { es: "FASE 2", en: "PHASE 2" },
-  "approach.2.title": { es: "Arquitectura", en: "Architecture" },
-  "approach.2.desc": {
-    es: "Diseño de APIs REST, microservicios y modelado de datos. Las decisiones que cuestan caro cambiar se toman aquí, no en producción.",
-    en: "REST API design, microservices, and data modeling. The expensive-to-change decisions get made here, not in production.",
+  'personalProjects.1.link': { es: 'Ver proyecto', en: 'View project' },
+  'personalProjects.2.title': {
+    es: 'Gestor de Competencias de Natación',
+    en: 'Swim Competition Manager',
   },
-  "approach.3.num": { es: "FASE 3", en: "PHASE 3" },
-  "approach.3.title": { es: "Construcción", en: "Build" },
-  "approach.3.desc": {
-    es: "Código limpio, tests automatizados y code reviews. Lo que separa un prototipo de software mantenible a largo plazo.",
-    en: "Clean code, automated tests, and code reviews. What separates a prototype from software that holds up over time.",
-  },
-  "approach.4.num": { es: "FASE 4", en: "PHASE 4" },
-  "approach.4.title": { es: "Entrega", en: "Delivery" },
-  "approach.4.desc": {
-    es: "Documentación técnica, monitorización y mantenimiento evolutivo. El equipo puede seguir sin depender de una sola persona.",
-    en: "Technical documentation, monitoring, and evolutionary maintenance. The team can carry on without depending on one person.",
+  'personalProjects.2.desc': {
+    es: 'Sistema de cronometraje por RFID: cada competidor lleva un tag único que, al pasar por meta, es leído automáticamente para registrar su tiempo de llegada — sin planillas ni cronómetros manuales.',
+    en: "RFID-based timing system: each competitor wears a unique tag that gets read automatically at the finish line to log their arrival time — no spreadsheets or manual stopwatches.",
   },
 
   "contact.eyebrow": { es: "Lámina 04 — Contacto", en: "Sheet 04 — Contact" },
