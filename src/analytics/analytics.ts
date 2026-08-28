@@ -1,4 +1,4 @@
-export type PortfolioLinkType = 'linkedin' | 'github' | 'email';
+export type PortfolioLinkType = 'linkedin' | 'github' | 'email' | 'gpx-mountain-guide';
 
 declare global {
   interface Window {
