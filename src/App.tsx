@@ -1,4 +1,4 @@
-import { useMemo, useRef, useEffect } from 'react';
+import { useMemo, useRef } from 'react';
 import { LanguageProvider } from './i18n/LanguageContext';
 import { useActiveSection } from './hooks/useActiveSection';
 import type { SectionId } from './config/sections';
