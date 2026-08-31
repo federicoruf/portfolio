@@ -100,18 +100,24 @@ export const translations = {
     es: "Diseño inicial del proyecto y participación en decisiones clave del stack tecnológico. Desarrollo frontend desde cero. Presentaciones técnicas y funcionales en inglés para el cliente. Dirección y participación en revisiones de código.",
     en: "Initial project design and participation in key technological stack decisions. Frontend development from scratch. Technical and functional presentations in English for the client. Code review direction and participation.",
   },
-  'work.7.title': { es: 'Trova Trip —  USA Viajes', en: 'Trova Trip — USA Travel' },
-  'work.7.desc': {
+  "work.7.title": {
+    es: "Trova Trip —  USA Viajes",
+    en: "Trova Trip — USA Travel",
+  },
+  "work.7.desc": {
     es: "Desarrollo full stack de nuevas funcionalidades. Migración de base de datos hacia MongoDB Atlas. Participación en análisis funcional y redacción de historias de usuario. Mentoring e integración de nuevos integrantes al equipo. Trabajo bajo metodologías Scrum y Kanban.",
     en: "Full stack development of new features. Migration of database to MongoDB Atlas. Participation in functional analysis and writing user stories. Mentoring and integration of new team members. Work under Scrum and Kanban methodologies.",
   },
-  'work.8.title': { es: 'Poyectos Multidominio', en: 'Multi-domain projects' },	
-  'work.8.desc': {
+  "work.8.title": { es: "Poyectos Multidominio", en: "Multi-domain projects" },
+  "work.8.desc": {
     es: "Participación en múltiples dominios (seguros, finanzas, realidad aumentada, gaming). Trabajo directo con equipos distribuidos (EE. UU., Colombia) aplicando metodologías Scrum/Kanban. Estimación de esfuerzos para preventa. Responsabilidades principales: Desarrollo full stack con React, Node.js y Java. Diseño e integración de APIs. Trabajo con bases de datos SQL y NoSQL. Participación en estimaciones y procesos de preventa. Colaboración en arquitectura y toma de decisiones técnicas.",
     en: "Participation in multiple domains (insurance, finance, augmented reality, gaming). Direct work with distributed teams (U.S., Colombia) applying Scrum/Kanban methodologies. Estimation of effort for pre-sale. Main responsibilities: Full stack development with React, Node.js and Java. API design and integration. Work with SQL and NoSQL databases. Participation in estimation and pre-sale processes. Collaboration in architecture and technical decision-making.",
   },
-  'work.9.title': { es: 'Hospital Español de La Plata', en: 'Hospital Español de La Plata' },
-  'work.9.desc': {
+  "work.9.title": {
+    es: "Hospital Español de La Plata",
+    en: "Hospital Español de La Plata",
+  },
+  "work.9.desc": {
     es: "Desarrollo e implementación de aplicaciones utilizando Java Spring y AngularJS. Gestión de bases de datos Sybase. Despliegue y mantenimiento de aplicaciones en servidores Linux.",
     en: "Development and implementation of applications using Java Spring and AngularJS. Management of Sybase databases. Deployment and maintenance of applications on Linux servers.",
   },
@@ -120,18 +126,21 @@ export const translations = {
     es: "Lámina 03 — Proyectos Personales",
     en: "Sheet 03 — Personal Projects",
   },
-  'personalProjects.1.title': { es: 'GPX Mountain Guide', en: 'GPX Mountain Guide' },
-  'personalProjects.1.desc': {
-    es: 'Generador y visor de rutas de MTB con seguimiento en tiempo real: cada ciclista comparte su posición durante el recorrido, así el grupo entero sabe dónde está cada uno sin depender de walkies ni paradas para reagruparse.',
+  "personalProjects.1.title": {
+    es: "GPX Mountain Guide",
+    en: "GPX Mountain Guide",
+  },
+  "personalProjects.1.desc": {
+    es: "Generador y visor de rutas de MTB con seguimiento en tiempo real: cada ciclista comparte su posición durante el recorrido, así el grupo entero sabe dónde está cada uno sin depender de walkies ni paradas para reagruparse.",
     en: "MTB route generator and viewer with real-time tracking: each rider shares their position during the ride, so the whole group knows where everyone is without walkies or stopping to regroup.",
   },
-  'personalProjects.1.link': { es: 'Ver proyecto', en: 'View project' },
-  'personalProjects.2.title': {
-    es: 'Gestor de Competencias de Natación',
-    en: 'Swim Competition Manager',
+  "personalProjects.1.link": { es: "Ver proyecto", en: "View project" },
+  "personalProjects.2.title": {
+    es: "Gestor de Competencias de Natación",
+    en: "Swim Competition Manager",
   },
-  'personalProjects.2.desc': {
-    es: 'Sistema de cronometraje por RFID: cada competidor lleva un tag único que, al pasar por meta, es leído automáticamente para registrar su tiempo de llegada — sin planillas ni cronómetros manuales.',
+  "personalProjects.2.desc": {
+    es: "Sistema de cronometraje por RFID: cada competidor lleva un tag único que, al pasar por meta, es leído automáticamente para registrar su tiempo de llegada — sin planillas ni cronómetros manuales.",
     en: "RFID-based timing system: each competitor wears a unique tag that gets read automatically at the finish line to log their arrival time — no spreadsheets or manual stopwatches.",
   },
 
@@ -146,6 +155,8 @@ export const translations = {
   },
   "contact.linkedin": { es: "LinkedIn", en: "LinkedIn" },
   "contact.github": { es: "GitHub", en: "GitHub" },
+  "contact.copy": { es: "Copiar email", en: "Copy email" },
+  "contact.copied": { es: "¡Copiado!", en: "Copied!" },
 } as const;
 
 export type TranslationKey = keyof typeof translations;

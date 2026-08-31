@@ -32,3 +32,28 @@
 .links a:hover {
   color: var(--accent);
 }
+
+.emailGroup {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.copyBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  color: var(--line-dim);
+  background: none;
+  border: 1px solid var(--line-faint);
+  padding: 0;
+  cursor: pointer;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.copyBtn:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}
