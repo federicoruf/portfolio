@@ -30,8 +30,8 @@ export const translations = {
     en: "Over ten years building and modernizing web applications for international clients across the U.S. and Europe. I treat every system like a blueprint: clear measurements, defined tolerances, and a reason behind every technical decision.",
   },
   "about.p2": {
-    es: "Trabajo con el ecosistema JavaScript/TypeScript — React, Node.js, Express — pero el material de verdad es la arquitectura: APIs REST, microservicios y modelado de datos antes de escribir la primera línea de UI.",
-    en: "I work across the JavaScript/TypeScript ecosystem — React, Node.js, Express — but the real material is architecture: REST APIs, microservices, and data modeling before the first line of UI gets written.",
+    es: "Conozco bien el stack completo — Node.js, Next.js, Express, APIs REST, microservicios, modelado de datos —, pero mi terreno favorito sigue siendo el frontend: ahí es donde todo ese trabajo se convierte en algo tangible.",
+    en: "I know the full stack — Node.js, Next.js, Express, REST APIs, microservices, data modeling —, but my favorite part of the job is the frontend: where all the hard work gets turned into something tangible.",
   },
   "about.spec.stack": { es: "Stack", en: "Stack" },
   "about.spec.stack.value": {
