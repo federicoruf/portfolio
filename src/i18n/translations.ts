@@ -122,9 +122,24 @@ export const translations = {
     en: "Development and implementation of applications using Java Spring and AngularJS. Management of Sybase databases. Deployment and maintenance of applications on Linux servers.",
   },
 
+  "stack.eyebrow": {
+    es: "Lámina 03 — Stack Técnico",
+    en: "Sheet 03 — Tech Stack",
+  },
+  "stack.cat.ai": { es: "IA", en: "AI" },
+  "stack.cat.frontend": { es: "Frontend", en: "Frontend" },
+  "stack.cat.backend": { es: "Backend", en: "Backend" },
+  "stack.cat.db": { es: "Bases de Datos", en: "Databases" },
+  "stack.cat.testing": { es: "Testing", en: "Testing" },
+  "stack.cat.cloud": { es: "Cloud, DevOps y Herramientas", en: "Cloud, DevOps & Tools" },
+  "stack.cat.arch": {
+    es: "Arquitectura y Prácticas",
+    en: "Architecture & Practices",
+  },
+
   "personalProjects.eyebrow": {
-    es: "Lámina 03 — Proyectos Personales",
-    en: "Sheet 03 — Personal Projects",
+    es: "Lámina 04 — Proyectos Personales",
+    en: "Sheet 04 — Personal Projects",
   },
   "personalProjects.1.title": {
     es: "GPX Mountain Guide",
@@ -143,8 +158,48 @@ export const translations = {
     es: "Sistema de cronometraje por RFID: cada competidor lleva un tag único que, al pasar por meta, es leído automáticamente para registrar su tiempo de llegada — sin planillas ni cronómetros manuales.",
     en: "RFID-based timing system: each competitor wears a unique tag that gets read automatically at the finish line to log their arrival time — no spreadsheets or manual stopwatches.",
   },
+  "personalProjects.3.title": {
+    es: "TripMind — Planificador de viajes conversacional",
+    en: "TripMind — Conversational trip planner",
+  },
+  "personalProjects.3.desc": {
+    es: "Contás el viaje que tenés en mente en lenguaje natural y arma un itinerario día por día en vivo, combinando tus propias guías (RAG sobre notas/PDFs), datos reales vía APIs (clima, lugares) y conocimiento del modelo, siempre marcando de dónde sale cada dato.",
+    en: "You describe the trip you have in mind in natural language and it builds a day-by-day itinerary live, combining your own guides (RAG over notes/PDFs), real data via APIs (weather, places) and the model's own knowledge, always marking where each piece of data comes from.",
+  },
+  "personalProjects.3.link": { es: "Ver proyecto", en: "View project" },
 
-  "contact.eyebrow": { es: "Lámina 04 — Contacto", en: "Sheet 04 — Contact" },
+  "education.eyebrow": {
+    es: "Lámina 05 — Formación y Premios",
+    en: "Sheet 05 — Education & Awards",
+  },
+  "education.1.title": {
+    es: "Licenciado en Informática",
+    en: "B.Sc. in Computer Science",
+  },
+  "education.1.desc": {
+    es: "Universidad Nacional de La Plata (UNLP), 2007–2016. Tesis de grado: \"Talk-Louder!\", una aplicación Android que asiste a personas sordas o hipoacúsicas en su comunicación con oyentes.",
+    en: "Universidad Nacional de La Plata (UNLP), 2007–2016. Thesis: \"Talk-Louder!\", an Android app assisting deaf and hard-of-hearing people in communicating with hearing people.",
+  },
+  "education.1.link": { es: "Ver tesis", en: "View thesis" },
+  "education.2.title": {
+    es: "Proyecto Ganador — Accesible América IV (ITU)",
+    en: "Winning Project — Accesible América IV (ITU)",
+  },
+  "education.2.desc": {
+    es: "Costa Rica, 2017. Primer premio en la categoría \"Applications in Development\", otorgado por la Unión Internacional de Telecomunicaciones (ITU) al proyecto de tesis \"Talk-Louder!\".",
+    en: "Costa Rica, 2017. First prize in the \"Applications in Development\" category, awarded by the International Telecommunication Union (ITU) to the thesis project \"Talk-Louder!\".",
+  },
+  "education.2.link": { es: "Ver nota", en: "Read article" },
+  "education.3.title": {
+    es: "Ponente — World Interaction Design Day",
+    en: "Speaker — World Interaction Design Day",
+  },
+  "education.3.desc": {
+    es: "La Plata, 2018. Charla sobre el diseño y desarrollo de una aplicación móvil orientada a mejorar la comunicación de personas sordas.",
+    en: "La Plata, 2018. Talk on the design and development of a mobile app aimed at improving communication for deaf people.",
+  },
+
+  "contact.eyebrow": { es: "Lámina 06 — Contacto", en: "Sheet 06 — Contact" },
   "contact.title": {
     es: "¿Construimos algo con medidas?",
     en: "Let's build something to scale.",

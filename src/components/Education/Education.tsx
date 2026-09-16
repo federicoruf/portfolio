@@ -2,57 +2,53 @@ import { forwardRef } from "react";
 import { useLanguage } from "../../i18n/LanguageContext";
 import { useInView } from "../../hooks/useInView";
 import shared from "../../styles/shared.module.css";
-import styles from "./PersonalProjects.module.css";
-import { trackPortfolioLinkClick } from "../../analytics/analytics";
+import styles from "./Education.module.css";
+import { trackPortfolioLinkClick, type PortfolioLinkType } from "../../analytics/analytics";
 
-interface WorkItemData {
+interface EducationItemData {
   num: string;
-  titleKey: "personalProjects.1.title" | "personalProjects.2.title" | "personalProjects.3.title";
-  descKey: "personalProjects.1.desc" | "personalProjects.2.desc" | "personalProjects.3.desc";
-  tags: string[];
+  titleKey: "education.1.title" | "education.2.title" | "education.3.title";
+  descKey: "education.1.desc" | "education.2.desc" | "education.3.desc";
   url?: string;
-  linkKey?: "personalProjects.1.link" | "personalProjects.3.link";
-  linkType?: "gpx-mountain-guide" | "tripmind";
+  linkKey?: "education.1.link" | "education.2.link";
+  linkType?: PortfolioLinkType;
   delayClass?: string;
 }
 
-const ITEMS: WorkItemData[] = [
+const ITEMS: EducationItemData[] = [
   {
     num: "01",
-    titleKey: "personalProjects.1.title",
-    descKey: "personalProjects.1.desc",
-    tags: ["Next.js", "React", "Geolocalización"],
-    url: "https://gpx-mountain-guide.vercel.app/",
-    linkKey: "personalProjects.1.link",
-    linkType: "gpx-mountain-guide",
+    titleKey: "education.1.title",
+    descKey: "education.1.desc",
+    url: "https://sedici.unlp.edu.ar/handle/10915/58933",
+    linkKey: "education.1.link",
+    linkType: "thesis",
   },
   {
     num: "02",
-    titleKey: "personalProjects.2.title",
-    descKey: "personalProjects.2.desc",
-    tags: ["React", "TypeScript", "RFID"],
+    titleKey: "education.2.title",
+    descKey: "education.2.desc",
+    url: "https://graduados.info.unlp.edu.ar/2017/12/12/la-tesis-de-federico-rufrancos-y-mauro-alvarez-gano-el-concurso-de-la-union-internacional-de-telecomunicaciones-itu/",
+    linkKey: "education.2.link",
+    linkType: "itu-article",
     delayClass: styles.itemDelay1,
   },
   {
     num: "03",
-    titleKey: "personalProjects.3.title",
-    descKey: "personalProjects.3.desc",
-    tags: ["Node.js", "TypeScript", "React", "LLM", "RAG"],
-    url: "https://tripmind-frontend.web.app/",
-    linkKey: "personalProjects.3.link",
-    linkType: "tripmind",
+    titleKey: "education.3.title",
+    descKey: "education.3.desc",
     delayClass: styles.itemDelay2,
   },
 ];
 
-export const PersonalProjects = forwardRef<HTMLElement>(
-  function Work(_props, forwardedRef) {
+export const Education = forwardRef<HTMLElement>(
+  function Education(_props, forwardedRef) {
     const { t } = useLanguage();
     const { ref, inView } = useInView<HTMLElement>();
 
     return (
       <section
-        id="personalProjects"
+        id="education"
         ref={(node) => {
           ref.current = node;
           if (typeof forwardedRef === "function") forwardedRef(node);
@@ -64,7 +60,7 @@ export const PersonalProjects = forwardRef<HTMLElement>(
             .filter(Boolean)
             .join(" ")}
         >
-          {t("personalProjects.eyebrow")}
+          {t("education.eyebrow")}
         </div>
         <div className={styles.list}>
           {ITEMS.map((item) => (
@@ -95,13 +91,6 @@ export const PersonalProjects = forwardRef<HTMLElement>(
                     {t(item.linkKey)} ↗
                   </a>
                 )}
-              </div>
-              <div className={styles.tags}>
-                {item.tags.map((tag) => (
-                  <span key={tag} className={styles.tag}>
-                    {tag}
-                  </span>
-                ))}
               </div>
             </div>
           ))}
