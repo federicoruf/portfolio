@@ -108,7 +108,7 @@ export const translations = {
     es: "Desarrollo full stack de nuevas funcionalidades. Migración de base de datos hacia MongoDB Atlas. Participación en análisis funcional y redacción de historias de usuario. Mentoring e integración de nuevos integrantes al equipo. Trabajo bajo metodologías Scrum y Kanban.",
     en: "Full stack development of new features. Migration of database to MongoDB Atlas. Participation in functional analysis and writing user stories. Mentoring and integration of new team members. Work under Scrum and Kanban methodologies.",
   },
-  "work.8.title": { es: "Poyectos Multidominio", en: "Multi-domain projects" },
+  "work.8.title": { es: "Proyectos Multidominio", en: "Multi-domain projects" },
   "work.8.desc": {
     es: "Participación en múltiples dominios (seguros, finanzas, realidad aumentada, gaming). Trabajo directo con equipos distribuidos (EE. UU., Colombia) aplicando metodologías Scrum/Kanban. Estimación de esfuerzos para preventa. Responsabilidades principales: Desarrollo full stack con React, Node.js y Java. Diseño e integración de APIs. Trabajo con bases de datos SQL y NoSQL. Participación en estimaciones y procesos de preventa. Colaboración en arquitectura y toma de decisiones técnicas.",
     en: "Participation in multiple domains (insurance, finance, augmented reality, gaming). Direct work with distributed teams (U.S., Colombia) applying Scrum/Kanban methodologies. Estimation of effort for pre-sale. Main responsibilities: Full stack development with React, Node.js and Java. API design and integration. Work with SQL and NoSQL databases. Participation in estimation and pre-sale processes. Collaboration in architecture and technical decision-making.",
