@@ -38,7 +38,7 @@ const ITEMS: WorkItemData[] = [
     titleKey: "personalProjects.3.title",
     descKey: "personalProjects.3.desc",
     tags: ["Node.js", "TypeScript", "React", "LLM", "RAG"],
-    url: "https://tripmind-frontend.web.app/",
+    url: "https://mytripmind-io.web.app/",
     linkKey: "personalProjects.3.link",
     linkType: "tripmind",
     delayClass: styles.itemDelay2,
